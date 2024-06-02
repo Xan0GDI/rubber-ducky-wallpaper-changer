@@ -15,3 +15,5 @@ STRINGLN start /min cmd /c "curl -o %userprofile%/image333.jpeg https://i.imgur.
 DELAY 100
 STRINGLN exit
 ```
+
+you need to encode the script for it to work... for encoding use https://payloadstudio.hak5.org/community/
