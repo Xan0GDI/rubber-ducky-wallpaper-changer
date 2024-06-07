@@ -1,7 +1,15 @@
 # Rubber Ducky Wallpaper Changer
 
 I got a new Rubber Ducky USB and I am right now testing it to prank my friends ;).
+The only important files in this repository are:
+- **changer script.bat**
+- "the image folder"
 
+Other Files in this repo:
+- runexe.mp4
+- wallpaperblock.bat
+are not important.
+I only need them for infection (another ducky script)
 
 Here is the script:
 
