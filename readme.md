@@ -27,3 +27,5 @@ STRINGLN exit
 you need to encode the script for it to work... for encoding use https://payloadstudio.hak5.org/community/
 
 and don´t forget to use the "german" keyboard layout if you are using this on german computers...
+
+- EVERYTHING IS FOR EDUCATIONAL PURPOSES ONLY! I AM NOT RESPONSIBLE FOR ANY DAMAGES!
